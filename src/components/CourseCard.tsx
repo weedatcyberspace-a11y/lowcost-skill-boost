@@ -85,7 +85,10 @@ const CourseCard = ({
       </CardContent>
       
       <CardFooter>
-        <Button className="w-full bg-gradient-primary text-primary-foreground hover:shadow-glow transition-all">
+        <Button 
+          className="w-full bg-gradient-primary text-primary-foreground hover:shadow-glow transition-all"
+          onClick={() => window.location.href = '/enroll'}
+        >
           Enroll Now
         </Button>
       </CardFooter>

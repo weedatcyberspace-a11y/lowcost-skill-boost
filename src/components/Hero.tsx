@@ -24,7 +24,11 @@ const Hero = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
-              <Button size="lg" className="bg-white text-primary hover:bg-white/90 shadow-elegant">
+              <Button 
+                size="lg" 
+                className="bg-white text-primary hover:bg-white/90 shadow-elegant"
+                onClick={() => window.location.href = '/enroll'}
+              >
                 Browse Courses
               </Button>
               <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/20">
